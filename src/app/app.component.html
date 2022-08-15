@@ -1,4 +1,14 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<p>only-numbers directive</p>
+
+<!-- <input
+  matInput
+  id="mobile"
+  name="mobile"
+  type="text"
+  class="form-control"
+  #mobile="ngModel"
+  [AcceptOnlyNumbers]="mobile"
+  [mobile-number-validator]="mobile"
+/> -->
+
+<input id="mobile" name="mobile" type="text" [AcceptOnlyNumbers]="mobile" />
